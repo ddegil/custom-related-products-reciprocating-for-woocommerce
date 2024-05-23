@@ -1,14 +1,13 @@
-=== Custom Related Products for WooCommerce ===
-Contributors: scottnelle
-Donate link: https://www.paypal.me/scottnelle
+=== Custom Related Products for WooCommerce Reciprocating ===
+Contributors: scottnelle,daviddegil
 Tags: woocommerce, related products
-Requires at least: 3.0
-Tested up to: 4.7
-Stable tag: 1.3
+Requires at least: 7.0
+Tested up to: 8.9.1
+Stable tag: 2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Custom Related Products for WooCommerce lets you choose which products should show in the related products area on a product detail page.
+Custom Related Products for WooCommerce lets you choose which products should show in the related products area on a product detail page. You can reciprocate the assocation as well so you do not need to do it manually.
 
 == Description ==
 
@@ -17,19 +16,25 @@ Custom Related Products for WooCommerce lets you choose which products should sh
 How to use:
 
 * Edit any product. Under Linked Products you will now have a Related Products selector alongside the Cross-Sells and Upsells.
+* If you want the related products you choose to reciprocate then check the "Related Products Reciprocate" box. The check will be maintained.
 * Select some products and save.
 * As long as your theme has a related products section, you're done! By default all WooCommerce themes have this, so unless your theme specifically disables it you're all set.
 * If you don't select related products for any product, it will fall back to the WooCommerce default behavior of selecting random products by category. If you'd prefer to show no products you can configure that under WooCommerce > Custom Related Products.
 
-This plugin has been tested with WooCommerce 2.1 through 3.0.
+This plugin has been tested with WooCommerce 7 through 8.9.1.
 
 == Installation ==
 
-1. Download Custom Related Products for WooCommerce.
+1. Download Custom Related Products for WooCommerce Reciprocating.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Configure under WooCommerce > Custom Related Products
 
 == Changelog ==
+= 2.0 =
+* Removed older woocommerce hacks.
+* Added reciprocating setting in settings page.
+* Added reciprocating logic.
+
 = 1.3 =
 * Update to work with the UI rewrite and related post querying rewrite in WooCommerce 3.0.
 
